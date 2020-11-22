@@ -18,6 +18,6 @@ else
      regex = new RegExp(letter,"ig");
 }
 count = (str.match(regex) || []).length;
-document.write(count);
+document.write("Number of Occurrences: "+count);
 
 //Question: how to add a variable in regex without using new
