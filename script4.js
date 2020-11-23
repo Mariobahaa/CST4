@@ -7,12 +7,12 @@ arr[0] = parseFloat(prompt("Enter first Number", "1"));
 } while(arr[0]==null || !isFinite(arr[0]));
 
 do{
-arr[1] = parseFloat(prompt("Enter first Number","2"));
+arr[1] = parseFloat(prompt("Enter Second Number","2"));
 //str+=arr[1];
 } while(arr[1]==null || !isFinite(arr[1]));
 
 do{
-arr[2] = parseFloat(prompt("Enter first Number","3"));
+arr[2] = parseFloat(prompt("Enter Third Number","3"));
 //str+=arr[2];
 } while(arr[2]==null || !isFinite(arr[2]));
 
